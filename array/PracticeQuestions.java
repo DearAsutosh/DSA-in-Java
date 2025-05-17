@@ -27,6 +27,6 @@ class PracticeQuestions {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-        System.out.println(PracticeQuestions.largestElement(arr));
+        System.out.println("Largest Element is = "+PracticeQuestions.largestElement(arr));
     }
 }
